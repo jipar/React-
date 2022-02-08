@@ -1,4 +1,7 @@
-/* .box {
+.block {
+  background-color: #666;
+}
+.box {
     width: 800px;
     height: 600px;
     display: flex;
@@ -6,7 +9,6 @@
     align-items: center;
     margin: 0 auto;
   }
-  
   .body {
     width: 617px;
     height: 415px;
@@ -21,10 +23,9 @@
     border-radius: 0 10px 10px 0;
     background-color: #fff;
   }
-  
   .bl {
     height: 400px;
     width: 196px ;
     background-color: #fff;
     margin: 0 2px;
-  } */
+  }

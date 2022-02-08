@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import './App.css'
+import AddNumber from './Components/AddNumber/AddNumber'
+import Picture from './Components/Picture/Picture'
+import Code from './Components/Code/Code'
+import Time from './Components/Time/Time'
+import Battery from './Components/Battery/Battery'
+import Test from './Components/Test/Test'
+import Test1 from './Components/Test1/Test1'
+import Giphy from './Components/Giphy/Giphy'
+import Giph from './Components/G/Giph'
+import Youtube from './Components/Youtube/Youtube'
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+    <div> 
+      {/* <AddNumber /> */}
+      {/* <Picture /> */}
+      {/* <Code /> */}
+      {/* <Time /> */}
+      {/* <Battery /> */}
+      {/* <Test />
+      <Test1 /> */}
+      {/* <Giphy /> */}
+      <Giph />
 
-export default App;
+      {/* <Youtube /> */}
+    </div>
+  )
+}
